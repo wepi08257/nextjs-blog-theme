@@ -82,8 +82,8 @@ export default function Footer({ copyrightText }) {
     <footer className="py-16 flex flex-col items-center">
       <p className="dark:text-white uppercase mb-3 font-bold opacity-60">
         {copyrightText}
-       <p className="text-center"><a href="https://www.tonnenleerung.de/impressum-datenschutz">IMPRESSUM</a></p>
       </p>
+      <p className="text-center"><a href="https://www.tonnenleerung.de/impressum-datenschutz">IMPRESSUM</a></p>
       <ThemeSwitcher />
     </footer>
   );
